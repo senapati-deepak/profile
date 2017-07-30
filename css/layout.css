@@ -46,22 +46,85 @@ i:hover {
 
 @keyframes bkgrnd {
     0% {
-        background-color: #FDD69A;
+        background-color: #feeacd;
     }
     20% {
-        background-color: #BCFEA9;
+        background-color: #ebffe6;
     }
     40% {
-        background-color: #f2ccff;
+        background-color: #f9e6ff;
     }
     60% {
-        background-color: #C0A9FE;
+        background-color: #ece6ff;
     }
     80% {
-        background-color: #F79AFD;
+        background-color: #fde6fe;
     }
     100% {
-        background-color: #FD9AAF;
+        background-color: #fee6eb;
+    }
+}
+
+@-webkit-keyframes bkgrnd {
+    0% {
+        background-color: #feeacd;
+    }
+    20% {
+        background-color: #ebffe6;
+    }
+    40% {
+        background-color: #f9e6ff;
+    }
+    60% {
+        background-color: #ece6ff;
+    }
+    80% {
+        background-color: #fde6fe;
+    }
+    100% {
+        background-color: #fee6eb;
+    }
+}
+
+@-moz-keyframes bkgrnd {
+    0% {
+        background-color: #feeacd;
+    }
+    20% {
+        background-color: #ebffe6;
+    }
+    40% {
+        background-color: #f9e6ff;
+    }
+    60% {
+        background-color: #ece6ff;
+    }
+    80% {
+        background-color: #fde6fe;
+    }
+    100% {
+        background-color: #fee6eb;
+    }
+}
+
+@-o-keyframes bkgrnd {
+    0% {
+        background-color: #feeacd;
+    }
+    20% {
+        background-color: #ebffe6;
+    }
+    40% {
+        background-color: #f9e6ff;
+    }
+    60% {
+        background-color: #ece6ff;
+    }
+    80% {
+        background-color: #fde6fe;
+    }
+    100% {
+        background-color: #fee6eb;
     }
 }
 
@@ -98,6 +161,37 @@ i:hover {
     color: #006600;
 }
 
+@media screen and (max-width: 900px) {
+    .sidebar {
+        width: 35%;
+    }
+    .mainbody {
+        /*background: linear-gradient(to bottom left, rgba(255, 153, 255, 0.6), rgba(255, 153, 255, 0.5));*/
+        margin-left: 37%;
+        padding: 80px 40px 30px 50px;
+    }
+    .content {
+        text-indent: 10px;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainbody {
+        padding: 70px 30px 20px 40px;
+    }
+    .content {
+        text-indent: 5px;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .sidebar {
         margin: 0;
@@ -114,13 +208,6 @@ i:hover {
         height: auto;
         padding: 10px 10px 3px 8px;
     }
-    .content {
-        text-indent: 10px;
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 900px) {
     .content {
         text-indent: 10px;
         font-size: 20px;
