@@ -1,215 +1,236 @@
-img {
-    width: 80%;
-    display: block;
-    height: auto;
-    margin: auto;
-    border: 4px solid darkmagenta;
-    border-radius: 10%;
-    margin-top: 35px;
-}
-
-.centered {
-    text-align: center;
-    max-width: 300px;
-    margin: auto;
-}
-
-.name {
-    font-weight: bold;
-    text-align: center;
-}
-
-table {
-    margin: auto;
-}
-
-.layout td,
-th {
-    font-size: 20PX;
-    text-align: center;
-    padding: 10px 30px;
-}
-
-.layout th {
-    text-decoration: underline;
-}
-
-i {
-    font-size: 30px !important;
-    padding: 5px;
-    transition: font-size 0.3s;
-}
-
-i:hover {
-    font-size: 40px !important;
-}
-
-@keyframes bkgrnd {
-    0% {
-        background-color: #feeacd;
+    img {
+        width: 80%;
+        display: block;
+        height: auto;
+        margin: auto;
+        border: 4px solid darkmagenta;
+        border-radius: 10%;
+        margin-top: 35px;
     }
-    20% {
-        background-color: #ebffe6;
+    
+    .centered {
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
     }
-    40% {
-        background-color: #f9e6ff;
+    
+    .name {
+        font-weight: bold;
+        text-align: center;
     }
-    60% {
-        background-color: #ece6ff;
+    
+    td {
+        padding-left: 30px;
     }
-    80% {
-        background-color: #fde6fe;
+    
+    i {
+        font-size: 30px !important;
+        padding: 5px;
+        transition: font-size 0.3s;
     }
-    100% {
-        background-color: #fee6eb;
+    
+    i:hover {
+        font-size: 40px !important;
     }
-}
-
-@-webkit-keyframes bkgrnd {
-    0% {
-        background-color: #feeacd;
+    
+    .fa-facebook-official:hover {
+        box-shadow: 3px 3px blue;
     }
-    20% {
-        background-color: #ebffe6;
+    
+    .fa-github:hover:hover {
+        box-shadow: 3px 3px black;
     }
-    40% {
-        background-color: #f9e6ff;
+    
+    .fa-linkedin:hover {
+        box-shadow: 3px 3px blue;
     }
-    60% {
-        background-color: #ece6ff;
+    
+    .fa-twitter:hover {
+        box-shadow: 3px 3px blue;
     }
-    80% {
-        background-color: #fde6fe;
+    
+    .fa-quora:hover {
+        box-shadow: 3px 3px red;
     }
-    100% {
-        background-color: #fee6eb;
+    
+    .fa-quora {
+        color: red;
     }
-}
-
-@-moz-keyframes bkgrnd {
-    0% {
-        background-color: #feeacd;
+    
+    .fa-github {
+        color: black;
     }
-    20% {
-        background-color: #ebffe6;
+    
+    .fa-facebook-official .fa-twitter .fa-linkedin {
+        color: blue;
     }
-    40% {
-        background-color: #f9e6ff;
+    
+    @keyframes bkgrnd {
+        0% {
+            background-color: #feeacd;
+        }
+        20% {
+            background-color: #ebffe6;
+        }
+        40% {
+            background-color: #f9e6ff;
+        }
+        60% {
+            background-color: #ece6ff;
+        }
+        80% {
+            background-color: #fde6fe;
+        }
+        100% {
+            background-color: #fee6eb;
+        }
     }
-    60% {
-        background-color: #ece6ff;
+    
+    @-webkit-keyframes bkgrnd {
+        0% {
+            background-color: #feeacd;
+        }
+        20% {
+            background-color: #ebffe6;
+        }
+        40% {
+            background-color: #f9e6ff;
+        }
+        60% {
+            background-color: #ece6ff;
+        }
+        80% {
+            background-color: #fde6fe;
+        }
+        100% {
+            background-color: #fee6eb;
+        }
     }
-    80% {
-        background-color: #fde6fe;
+    
+    @-moz-keyframes bkgrnd {
+        0% {
+            background-color: #feeacd;
+        }
+        20% {
+            background-color: #ebffe6;
+        }
+        40% {
+            background-color: #f9e6ff;
+        }
+        60% {
+            background-color: #ece6ff;
+        }
+        80% {
+            background-color: #fde6fe;
+        }
+        100% {
+            background-color: #fee6eb;
+        }
     }
-    100% {
-        background-color: #fee6eb;
+    
+    @-o-keyframes bkgrnd {
+        0% {
+            background-color: #feeacd;
+        }
+        20% {
+            background-color: #ebffe6;
+        }
+        40% {
+            background-color: #f9e6ff;
+        }
+        60% {
+            background-color: #ece6ff;
+        }
+        80% {
+            background-color: #fde6fe;
+        }
+        100% {
+            background-color: #fee6eb;
+        }
     }
-}
-
-@-o-keyframes bkgrnd {
-    0% {
-        background-color: #feeacd;
-    }
-    20% {
-        background-color: #ebffe6;
-    }
-    40% {
-        background-color: #f9e6ff;
-    }
-    60% {
-        background-color: #ece6ff;
-    }
-    80% {
-        background-color: #fde6fe;
-    }
-    100% {
-        background-color: #fee6eb;
-    }
-}
-
-.sidebar {
-    animation-name: bkgrnd;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    margin: 0;
-    padding: o;
-    width: 25%;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    border: 2px double black;
-}
-
-.mainbody {
-    /*background: linear-gradient(to bottom left, rgba(255, 153, 255, 0.6), rgba(255, 153, 255, 0.5));*/
-    animation-name: bkgrnd;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    margin-left: 26%;
-    margin-right: 1%;
-    min-width: 100px;
-    height: auto;
-    border: 2px double black;
-    padding: 100px 100px 30px 80px;
-}
-
-.content {
-    text-indent: 50px;
-    text-align: justify;
-    font-size: 30px;
-    color: #006600;
-}
-
-@media screen and (max-width: 900px) {
+    
     .sidebar {
-        width: 35%;
-    }
-    .mainbody {
-        /*background: linear-gradient(to bottom left, rgba(255, 153, 255, 0.6), rgba(255, 153, 255, 0.5));*/
-        margin-left: 37%;
-        padding: 80px 40px 30px 50px;
-    }
-    .content {
-        text-indent: 10px;
-        font-size: 20px;
-    }
-    h1 {
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .mainbody {
-        padding: 70px 30px 20px 40px;
-    }
-    .content {
-        text-indent: 5px;
-        font-size: 20px;
-    }
-    h1 {
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .sidebar {
+        animation-name: bkgrnd;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
         margin: 0;
         padding: o;
-        width: 100%;
-        position: static;
-        height: 600px;
-        /*overflow: auto;*/
+        width: 25%;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        border: 2px double black;
     }
+    
     .mainbody {
-        margin: auto;
-        margin-top: 20px;
-        width: 95%;
+        /*background: linear-gradient(to bottom left, rgba(255, 153, 255, 0.6), rgba(255, 153, 255, 0.5));*/
+        animation-name: bkgrnd;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        margin-left: 26%;
+        margin-right: 1%;
+        min-width: 100px;
         height: auto;
-        padding: 10px 10px 3px 8px;
+        border: 2px double black;
+        padding: 100px 100px 30px 80px;
     }
+    
     .content {
-        text-indent: 10px;
-        font-size: 20px;
+        text-indent: 50px;
+        text-align: justify;
+        font-size: 30px;
+        color: #006600;
     }
-}
+    
+    @media screen and (max-width: 900px) {
+        .sidebar {
+            width: 35%;
+        }
+        .mainbody {
+            /*background: linear-gradient(to bottom left, rgba(255, 153, 255, 0.6), rgba(255, 153, 255, 0.5));*/
+            margin-left: 37%;
+            padding: 80px 40px 30px 50px;
+        }
+        .content {
+            text-indent: 10px;
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 25px;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .mainbody {
+            padding: 70px 30px 20px 40px;
+        }
+        .content {
+            text-indent: 5px;
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 25px;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .sidebar {
+            margin: 0;
+            padding: o;
+            width: 100%;
+            position: static;
+            height: 600px;
+            /*overflow: auto;*/
+        }
+        .mainbody {
+            margin: auto;
+            margin-top: 20px;
+            width: 95%;
+            height: auto;
+            padding: 10px 10px 3px 8px;
+        }
+        .content {
+            text-indent: 10px;
+            font-size: 20px;
+        }
+    }
